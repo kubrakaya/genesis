@@ -39,6 +39,8 @@ public class FetchDataPage extends BasePage {
         ArrayList<Map> arrayList = webServiceMethods.getData_From_OUTBOUND(MUID);
 
         System.out.println("OUTBOUND : ");
+        
+         System.out.println("KUBRA KAYA AYDAN : ");
 
         for (Map map : arrayList) {
 
